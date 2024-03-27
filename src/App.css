@@ -1,31 +1,52 @@
-.App {
+* {
+  background-color: #e3f9d9;
   text-align: center;
+  font-family: sans-serif;
 }
 
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: large;
+}
+
+.pokemonFight{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  min-height: 700px;
+}
+
+#pokemon1 img {
+  height: 200%;
+  width: 200%;
+}
+
+#pokemon2 img {
+  height: 150%;
+  width: 150%;
+}
+
+#pokemon1 {
+  align-self: end;
+}
+
+#pokemon2 {
+  align-self: start;
+}
+
+
+
 .App-logo {
-  height: 40vmin;
+  height: 5vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
